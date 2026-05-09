@@ -1,12 +1,33 @@
+Project  Title :Designing and Build EduOS
+Module Code :351 CS 2104
+Student Name :Haneef Robert Jussah 
+Registration Number :25311351010
 
- #PYTHON PROGRAM TO FIND THE LARGEST NUMBER
+Prerequisites (C part)
+ GCC compiler(version 9 or later)
+ make (optional)
+ Standard C Libraries(stdio,stdlib,type,etc)
+ 
 
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
+Step by step  building instructions ( C part)
+    Navigate to the source  directory:
+         sd c_simulator/
+    Compile the program :
+         gcc -o simulator main.c scheduler .c-I'm
 
-if a > b:
-    print("The larger number is:", a)
-elif b > a:
-    print("The larger number is:", b)
-else:
-    print("Both numbers are equal")
+    Run the simulator:
+      ./simulator. input 
+
+Prerequisites (Python part)
+   python version 3.8 or later
+   no external libraries required
+
+Building python instructions 
+  Navigate to python directory:
+     cd python_ smulator/
+  Run the script:
+     python3 smulator.py input.text
+
+
+
+    
