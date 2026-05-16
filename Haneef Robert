@@ -28,6 +28,14 @@ Building python instructions
   Run the script:
      python3 smulator.py input.text
 
+eduos/
+├── .github/workflows/  # CI/CD automation pipelines
+├── boot/               # Bootloader configuration and assembly entry points
+├── kernel/             # Core OS source code (memory, scheduling, drivers)
+├── sysroot/            # Final build directory matching OS root filesystem
+├── docs/               # Architecture documents and tutorials
+├── Makefile            # Build automation script
+└── README.md           # Project overview and landing page
 
 
     
